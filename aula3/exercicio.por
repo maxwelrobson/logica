@@ -5,7 +5,7 @@ programa
 	{
 
 	inteiro voto = 0, a = 0, b = 0, branco = 0, nulo = 0, sair = 0
-		escreva("Escolha um exercício para leitura de ados de uma eleição \n")
+		escreva("Escolha um candidato para leitura de ados de uma eleição \n")
 		escreva(" 1 -> Candidato A \n")
 		escreva(" 2 -> Candidato B \n")
 		escreva(" 3 -> Branco \n")
@@ -16,7 +16,9 @@ programa
 
 		enquanto(sair == 0){
 			leia (voto)
+			
 			escolha (voto) {
+				
 			caso 0:
 			sair = 1
 			pare
@@ -65,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1139; 
+ * @POSICAO-CURSOR = 448; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {a, 7, 19, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
